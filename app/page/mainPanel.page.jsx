@@ -7,7 +7,6 @@ const MainPanel = function (props) {
     return (
         <div>
             <EditorComponent/>
-            <PreviewerComponent/>
         </div>
     );
 };
