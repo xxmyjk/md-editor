@@ -20,7 +20,7 @@ module.exports = {
     },
     devtool: '#eval-source-map',
     resolve: {
-        // extensions: ['js', 'json', 'vue', 'less', 'css'],
+        extensions: ['.js', '.json', '.jsx', '.less', '.css', '.sass'],
         alias: {
             'ace': 'ace-builds/src-min'
         }
@@ -60,7 +60,7 @@ module.exports = {
     ],
     watch: false,
     watchOptions: {
-        // ignored: /node_modules/,
+        ignored: /(node_modules)|(dist)/,
         aggregateTimeout: 300,
         poll: 1000 * 10
     },

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {},
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "babel": "^6.23.0",
