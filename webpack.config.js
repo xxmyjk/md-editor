@@ -41,7 +41,7 @@ module.exports = {
                 test: /\.less$/,
                 use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
             }, {
-                test: /\.sass$/,
+                test: /\.(sass)|(scss)$/,
                 use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
             }, {
                 test: /\.(png|jpg|gif|svg|ttf|eot|woff|woff2)$/,
